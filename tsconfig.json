@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "noImplicitAny": true,
+        "target": "es6",
+        "moduleResolution": "node",
+        "allowJs": true,
+        "sourceMap": true,
+        "typeRoots": ["./node_modules/@types", "./src/typings"],
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+    },
+    "include": [
+        "./src/**/*.ts"
+    ]
+}

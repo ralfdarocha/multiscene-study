@@ -1,0 +1,29 @@
+{
+  "name": "threejs",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve"
+  },
+  "author": "Ralf da Rocha",
+  "license": "ISC",
+  "dependencies": {
+    "three": "^0.122.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.13.8",
+    "@babel/plugin-transform-typescript": "^7.12.1",
+    "@babel/preset-env": "^7.13.8",
+    "@babel/preset-typescript": "^7.12.1",
+    "@babel/register": "^7.12.1",
+    "@types/webpack": "^4.41.25",
+    "babel-loader": "^8.2.2",
+    "ts-loader": "^8.0.11",
+    "typescript": "^4.0.5",
+    "webpack": "^5.5.1",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

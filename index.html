@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Three.js</title>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body { margin: 0; overflow-y: scroll; }
+            canvas { 
+                display: block;
+                width: 100%;
+                margin: 0;
+            }
+            #wrapper{
+                position: relative;
+                width: 100%;
+                padding-top: 50px;
+            }
+            #btn {
+                border: 0;
+                border-bottom: 1px solid #000;
+                background: #000;
+                color: #fff;
+                display: block;
+                width: 100%;
+                height: 50px;
+                line-height: 50px;
+                position: fixed;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 16px;
+                cursor: pointer;
+                top: 0;
+                left: 0;
+                z-index: 99;
+                outline: none !important;
+                box-shadow: none !important;
+                transition: all .2s;
+            }
+            #btn.loading {
+                opacity: .2;
+                pointer-events: none;
+            }
+            #btn:active {
+                transform: scaleY(.95) scaleX(.99);
+            }
+            #btn:hover {
+                opacity: .9;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <button id="btn"></button>
+            <div id="container">
+            </div>
+        </div>
+        <script src="bundle.js"></script>
+    </body>
+</html>
